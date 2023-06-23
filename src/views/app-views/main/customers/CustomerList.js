@@ -4,14 +4,11 @@ import {EyeOutlined, DeleteOutlined} from '@ant-design/icons';
 import dayjs from 'dayjs';
 import UserView from './UserView';
 import AvatarStatus from 'components/shared-components/AvatarStatus';
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 // import userData from "assets/data/user-list.data.json";
 
 export class CustomersList extends Component {
-    constructor(props) {
-        super(props);
-    }
     state = {
         users: this.props.data,
         userProfileVisible: false,
