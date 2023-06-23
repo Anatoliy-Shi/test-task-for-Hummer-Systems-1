@@ -1,5 +1,4 @@
 {
-  "homepage": "https://anatoliy-shi.github.io/test-task-for-Hummer-Systems-1/",
   "name": "emilus",
   "version": "4.0.0",
   "private": true,
@@ -68,8 +67,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run start\" \"gulp watch\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -91,7 +88,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.4",
-    "gh-pages": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
     "gulp-debug": "^4.0.0",

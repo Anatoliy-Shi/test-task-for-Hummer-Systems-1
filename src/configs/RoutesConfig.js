@@ -19,7 +19,7 @@ export const publicRoutes = [
     }
 ]
 
-export const protectedRoutes = [
+export const protectedRoutes  = [
     {
         key: 'dashboard.default',
         path: `${APP_PREFIX_PATH}/dashboards/default`,
@@ -108,7 +108,7 @@ export const protectedRoutes = [
     {
         key: 'logs.default',
         path: `${APP_PREFIX_PATH}/logs`,
-        component: React.lazy(() => import('views/app-views/system/logs/Logs')),
+        component: React.lazy(() => import('views/app-views/system/log/Logs')),
     },
     {
         key: 'mobile-app.default',

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkemilus=self.webpackChunkemilus||[]).push([[858],{5858:function(u,e,n){n.r(e),n.d(e,{CustomerGroup:function(){return t}});n(2791);var r=n(184),t=function(){return(0,r.jsx)(r.Fragment,{children:"\u0413\u0440\u0443\u043f\u043f\u044b \u043a\u043b\u0438\u0435\u043d\u0442\u043e\u0432"})};e.default=t}}]);
-//# sourceMappingURL=858.b7c428e3.chunk.js.map
